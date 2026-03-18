@@ -1,4 +1,4 @@
-name: C/C++ CI
+name: C++ CI
 
 on:
   push:
@@ -13,13 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Install GCC
-        run: sudo apt-get update && sudo apt-get install -y build-essential
+      - name: Install g++
+        run: sudo apt-get update && sudo apt-get install -y g++
 
-      - name: Compile C files
+      - name: Compile C++ files
         run: |
           mkdir build
-          gcc *.c -o build/app
+          g++ -std=c++17 *.cpp -o build/app
 
       - name: Run Executable
         run: ./build/app
