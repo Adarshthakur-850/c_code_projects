@@ -1,0 +1,89 @@
+#include <stdio.h>
+int main()
+{
+
+    int i; ///i is a loop variabe
+    for(i=0;i<=10;i++)
+        printf("%d", i);
+}
+
+
+/////////////////////////////////////////////////////////
+#include <stdio.h>
+int main()
+{
+
+    int i;
+    for(i=0;i<=10;i++)
+    {
+        printf("\n%d", i+1);
+        printf("\nhello");
+    }
+        printf("\nhello");
+
+}
+   
+
+
+
+printf("total term in ap:");
+        scanf("%d",tt);
+
+///////////////////////////////////////////////////////
+
+#include <stdio.h>
+int main()
+{
+    int i=0;
+    while(i<10)
+    {
+        i++;
+        printf("%d ",i+1);
+    }
+    printf("\nOutsie Loop:will always execute ");
+
+}
+////////////////////////////////////////////////////
+#include <stdio.h>
+int main()
+{
+    int i=0;
+    while(i<10);
+    {
+        i++;
+        printf("%d ",i+1);
+    }
+    printf("\nOutsie Loop:will always execute ");
+
+}
+//////////////////////////////////////////////////////
+#include <stdio.h>
+int main()
+{
+    int i=10;
+    while(i>0)
+    {
+
+        printf("%d ",i);
+        i--;
+    }
+    printf("\nOutsie Loop:will always execute ");
+
+}
+/////////////////////////////////////////////////
+#include <stdio.h>
+int main()
+{
+    int i=1,n,s=0;
+    printf("enter the value of n=");
+    scanf("%d", &n);
+    while(i<=n)
+    {
+        s=s+i;
+        i++;
+        
+    }
+
+    printf("\nSum= %d",s);
+
+}

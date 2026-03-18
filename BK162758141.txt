@@ -1,0 +1,10 @@
+BookingID:	BK162758141
+Name: 	A
+
+Email Id: 	R
+Contact: 	 
+Travel Date: 34/66/8888
+From: PHAGWARA
+To: LUCKNOW
+Bus Number: BS18
+Departure Time: 03:30 PM

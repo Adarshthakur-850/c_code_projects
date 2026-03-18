@@ -1,0 +1,21 @@
+create table product_imfo
+(
+product_name varchar2(20),
+prod int,
+manufacing_company varchar2(20),
+no_of_price_available varchar2(20)
+);
+desc product_imfo 
+alter table product_imfo add unit_sold int;
+insert into product_imfo values('com',50,'dell',40,45);
+insert into product_imfo values('comp',500,'dl',409,4500);
+insert into product_imfo values('cam',50,'dill',40,45);
+insert into product_imfo values('cpm',50,'doll',40,45);
+insert into product_imfo values('cim',50,'dall',40,45);
+insert into product_imfo values('ccm',50,'del',40,45);
+insert into product_imfo values('com',50,'del',40,45);
+insert into product_imfo values('comi',510,'delel',40,45);
+update product_imfo set prod = 40 where product_name ='com';
+update product_imfo set prod = 40 where product_name ='cim';
+select * from product_imfo;
+delete from product_imfo where product_name = 'com';

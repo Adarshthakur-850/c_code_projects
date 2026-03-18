@@ -1,0 +1,10 @@
+BookingID:	BK81949429
+Name: 	1234
+
+Email Id: 	thakuradarsh8368@gmail.com
+Contact: 	 8882026112
+Travel Date: 12/12/2034
+From: PHAGWARA
+To: SURAT
+Bus Number: BS20
+Departure Time: 04:00 PM

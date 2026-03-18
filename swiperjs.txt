@@ -1,0 +1,35 @@
+.swiper-body{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.swiper {
+    width: 600px;
+    height: 300px;
+    border: 1px solid black;
+    overflow: hidden;
+  }
+.swiper-wrapper{
+    display: flex;
+}
+.swiper-img{
+    width: 500px;
+}
+ <div class="swiper-body">
+        <div class="swiper">   
+            <div class="swiper-wrapper">
+             
+                <div class="swiper-slide">
+                    <img src="./images/background.jpg" class="swiper-img">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/background.jpg" class="swiper-img">
+                    
+                </div>
+                <div class="swiper-slide">
+                    <img src="./images/background.jpg"class="swiper-img">
+
+              </div>
+            </div>
+        </div> 
+    </div>
